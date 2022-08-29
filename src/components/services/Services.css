@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.services{
+    margin-top: 5rem;
+    padding-bottom: 7rem;
+    background-color: #F8F9FC;
+    
+} 
+.s-top{
+    padding-top: 5rem;
+    text-align: center;
+}
+.s-top h2{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.s-top p{
+    font-size: 18px;
+    color: gray;
+}
+
+/* card first start  */
+
+.s-card-first{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    
+}
+.s-card{
+    margin: 0rem 2rem;
+    background-color: #F8F9FC;
+}
+.s-card .one{
+    background-color: rgb(255, 244, 244); ;
+    padding: 4rem 2rem;
+    transition: 0.5s;
+}
+.s-card .one:hover{
+    background: linear-gradient(180deg, #888585 26.71%, #a05a5a 99.36%);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+.s-card .two{
+    padding: 4rem 2rem;
+    background-color: rgb(255, 244, 244);
+    transition: 0.5s;
+}
+.s-card .two:hover{
+    background: linear-gradient(180deg, #888585 26.71%, #a05a5a 99.36%);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+.s-card .three{
+    padding: 4rem 2rem;
+    background-color: rgb(255, 244, 244);
+    transition: 0.5s;
+}
+.s-card .three:hover{
+    background: linear-gradient(180deg, #888585 26.71%, #a05a5a 99.36%);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+
+.s-card-first .s-card .fa-solid{
+    font-size: 45px;
+    color: rgb(197, 107, 107);
+    margin-bottom: 2rem;
+}
+.s-card-first .s-card h4{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+.s-card-first .s-card p{
+    color: gray;
+    line-height: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.s-card-first .s-card p:hover{
+    color: #F8F9FC;
+}
+
+
+/* s card second  */
+
+

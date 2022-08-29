@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f-wrapper{
+    margin-top: 8rem;
+    height: 25vh;
+    background-color: rgb(34, 34, 34);
+}
+.f-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.f-wrapper img{
+    margin-top: 2rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    width: 8%; 
+}
+.f-wrapper .f-icon{
+    display: flex;
+}
+.f-wrapper .f-icon .fa-brands{
+    margin-right: 1rem;
+    font-size: 19px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    color: gray;
+    border: 2px solid gray;
+    transform: 0.4s;
+}
+.f-wrapper .f-icon .fa-brands:hover{
+    background-color: brown;
+    border: 2px solid brown;
+    color: #fff;
+}
+.f-wrapper .f-icon{
+    margin-left: 2rem;
+}
+.f-wrapper .f-text p{
+    color: gray;
+    letter-spacing: 1px;
+}

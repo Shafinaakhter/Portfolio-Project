@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portfolio{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.p-top{
+    text-align: center;
+}
+.p-top h2{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.p-top p{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 4rem;
+}
+
+/* p cover start  */
+
+
+.p-cover{
+    margin: 4rem;
+}
+
+.p-cover .p-image img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+.p-cover .p-image{
+    transition: 0.3s;
+}
+
+.p-cover .p-image:hover{
+    color: #fff;
+    filter: brightness(0.5); 
+}
+/* .p-cover .p-image img:hover{
+    background-color: aqua;
+    filter: brightness(0.5);
+} */
+
+.p-cover .p-text{
+    text-align: center;
+    position: absolute;
+    transform: translateY(-200px);
+}
+.p-cover p{
+    margin-bottom: 2rem;
+    color: #fff;
+    margin-left: 5rem;
+    font-size: 18px;
+}
+.p-cover h3{
+    color: #fff;
+    margin-left: 3rem;
+    font-size: 25px;
+}
+.p-cover .p-button{
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    color: rgb(39, 14, 14);
+    background-color: rgb(236, 223, 223);
+    border: 1px solid rgb(243, 239, 239);
+    padding: 8px 18px;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.p-cover{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.p-cover .p-button:hover{
+    background-color: rgb(160, 68, 68);
+    border: 1px solid rgb(160, 68, 68);
+    color: rgb(252, 245, 245);
+}
+.portfolio .last-btn{
+    border: 2px solid rgb(160, 68, 68);
+    margin-left: 40rem;
+    padding: 8px 20px;
+    background-color: rgb(117, 16, 16);
+    color: #fff;
+    transition: 0.3s;
+}
+.portfolio .last-btn:hover{
+    color: #000;
+    box-shadow: 3px 3px 15px rgb(194, 191, 191);
+    background-color: rgb(255, 255, 255);
+}
